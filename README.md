@@ -1,73 +1,75 @@
-CIFAR-10 Image Classification using CNN
+# CIFAR-10 Image Classification using CNN
 
 This project uses a Convolutional Neural Network (CNN) built with PyTorch to classify images from the CIFAR-10 dataset.
 
-Dataset
+## Dataset
 
 CIFAR-10 contains 60,000 images divided into 10 classes:
 
-Airplane
-Automobile
-Bird
-Cat
-Deer
-Dog
-Frog
-Horse
-Ship
-Truck
+- Airplane
+- Automobile
+- Bird
+- Cat
+- Deer
+- Dog
+- Frog
+- Horse
+- Ship
+- Truck
 
 The dataset contains:
 
-50,000 training images
-10,000 testing images
+- 50,000 training images
+- 10,000 testing images
 
-Model
+## Model
 
 The CNN consists of:
 
-3 Convolutional layers
-ReLU activation
-Max Pooling layers
-2 Fully Connected layers
+- 3 Convolutional layers
+- ReLU activation
+- Max Pooling layers
+- 2 Fully Connected layers
 
 The final layer predicts one of the 10 CIFAR-10 classes.
 
-Training
+## Training
 
 The model is trained using:
 
-Optimizer: Adam
-Loss Function: CrossEntropyLoss
-Batch Size: 64
-Epochs: 10
+- Optimizer: Adam
+- Loss Function: CrossEntropyLoss
+- Batch Size: 64
+- Epochs: 10
 
 Training loss is displayed after each epoch.
 
-Requirements
+## Requirements
 
 Install PyTorch and Torchvision:
 
+```bash
 pip install torch torchvision
+```
 
-
-Run
+## Run
 
 Run the Python file:
 
-python main.py
-
+```bash
+python code.py
+```
 
 The CIFAR-10 dataset will be downloaded automatically.
 
-Evaluation
+## Evaluation
 
 After training, the model is evaluated on the test dataset and the test accuracy is calculated.
 
-Technologies
+## Technologies
 
-Python
-PyTorch
-Torchvision
-CNN
-CIFAR-10
+- Python
+- PyTorch
+- Torchvision
+- CNN
+- CIFAR-10
